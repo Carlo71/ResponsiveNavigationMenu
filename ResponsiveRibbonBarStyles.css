@@ -1,0 +1,120 @@
+/*Actual Responsive Ribbon Bar styles*/
+#RibbonBar {
+	margin-bottom: 3px;
+	height: 70px;
+}
+
+	#RibbonBar .tab-content {
+		overflow: hidden;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#272727+0,141615+100 */
+		background: #272727; /* Old browsers */
+		background: -moz-linear-gradient(top, #272727 0%, #141615 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, #272727 0%,#141615 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, #272727 0%,#141615 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#272727', endColorstr='#141615',GradientType=0 ); /* IE6-9 */
+		height: 100%;
+	}
+
+	#RibbonBar .tab-pane {
+		height: 100%;
+	}
+
+	#RibbonBar .tab-content > .active {
+		display: inline-block;
+		white-space: nowrap;
+		max-width: 100%;
+	}
+
+	#RibbonBar .ribbon_bar_group {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#686868+0,141615+100 */
+		background: #686868; /* Old browsers */
+		background: -moz-linear-gradient(top, #686868 0%, #141615 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, #686868 0%,#141615 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, #686868 0%,#141615 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#686868', endColorstr='#141615',GradientType=0 ); /* IE6-9 */
+		border: 1px solid black;
+		display: inline-block;
+		vertical-align: top;
+		position: relative;
+		height: 100%;
+	}
+
+	#RibbonBar .ribbon_bar_button_innergroup, #RibbonBar .ribbon_bar_button_innergroup_wrapper {
+		display: inline-block;
+		line-height: normal;
+		height: 100%;
+		vertical-align: top;
+	}
+
+	#RibbonBar .ribbon_bar_group .ribbon_bar_buttons {
+		border: 1px solid transparent;
+		max-width: 72px;
+		min-width: 60px;
+		background-color: transparent;
+		padding: 0px 3px;
+		height: 100%;
+		vertical-align: top;
+		display: inline-block;
+		text-align: center;
+	}
+
+		#RibbonBar .ribbon_bar_group .ribbon_bar_buttons:hover {
+			color: #9eda29;
+			border-color: black;
+			background-color: green;
+		}
+
+		#RibbonBar .ribbon_bar_group .ribbon_bar_buttons > .ribbon_bar_button_content {
+			height: 55px;
+		}
+
+.ribbon_bar_image_button {
+	display: none;
+}
+
+.ribbon_bar_button_text, .ribbon_bar_button_text_wrap {
+	display: block;
+	color: white;
+}
+
+.ribbon_bar_button_text {
+	font-size: 10px;
+}
+
+.ribbon_bar_button_text_wrap {
+	font-size: 10px;
+	white-space: normal;
+	margin-bottom: -10px;
+}
+
+#RibbonBar .ribbon_bar_group .ribbon_bar_buttons_wide {
+	min-width: 78px;
+}
+
+#RibbonBar .responsiveLevel1 .ribbon_bar_image, #RibbonBar .responsiveLevel2 .ribbon_bar_image {
+	display: none;
+}
+
+#RibbonBar .responsiveLevel1 .ribbon_bar_image_button, #RibbonBar .responsiveLevel2 .ribbon_bar_image_button {
+	display: inline;
+}
+
+#RibbonBar .responsiveLevel1 .ribbon_bar_buttons, #RibbonBar .responsiveLevel2 .ribbon_bar_buttons {
+	height: auto;
+	display: block;
+	padding: 3px;
+	max-width: 100%;
+	text-align: left;
+	min-width: 1px;
+}
+
+#RibbonBar .responsiveLevel1 .ribbon_bar_button_text, .responsiveLevel1 .ribbon_bar_button_text_wrap {
+	display: inline;
+	white-space: nowrap;
+}
+
+#RibbonBar .responsiveLevel2 .ribbon_bar_button_text, .responsiveLevel2 .ribbon_bar_button_text_wrap {
+	display: none;
+}
+
+/*End Custom Ribbon Bar Styles*/
